@@ -1,0 +1,46 @@
+/*Tablet*/
+@media all and (max-width:1000px ){
+	.top-text h2 {
+		font-weight: normal;
+	}
+
+	.profile-container {
+	width: 50%;
+	}
+}
+
+/* Smartphone */
+
+@media	all and (max-width:670px){
+	h1 {
+		font-size:24px;
+	}
+	.top-text h2 {
+		font-weight: normal;
+	}
+	h2 {
+		font-size: 18px;
+
+
+	}
+
+	.profile-container {
+		width: 100%;
+	}
+	.form-item input {
+		width: 100%;
+	}
+	.menu-logo{
+		padding-top:5px;
+		display: inline-block;
+	}
+	.menu-logo:hover{
+		padding-top:0;
+		height: 50px;
+		display: inline-block;
+	}
+	.header-list li a {
+	
+	display: none;
+	}
+}

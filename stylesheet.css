@@ -1,0 +1,146 @@
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+	height: 60px;
+	background-color: #000066;
+}
+.header-logo {
+	float: left;
+	padding: 10px 20px;
+}
+.header-logo img {
+	height: 40px;
+}
+.header-logo img:hover{
+	opacity: 0.7;
+}
+.menu-logo{
+	
+	display: none;
+}
+.header-list li {
+	float: left;
+	
+}
+.header-list li a {
+	color: white;
+	padding: 0 20px;
+	line-height: 60px;
+	display: block;
+}
+
+
+
+.header-list li a:hover {
+  background-color: rgba(255, 195, 0, 0.7);
+}
+.header-list li a:active {
+  background-color: rgba(255, 87, 51, 0.7);
+}
+.top-wrapper {
+	padding: 120px 0px 100px 0px;
+	background-size: cover;
+	background-image: url('profile_building.jpeg');
+	color: white;
+	text-align: center;
+}
+.top-text h2 {
+	width: 90%;
+}
+span {
+	color: rgb(255,195,0);
+}
+.description {
+	padding: 30px 0px 30px 0px;
+	text-align: center;
+}
+.description-text p{
+	display: inline-block;
+	width: 70%;
+}
+.profile {
+	
+	padding: 30px 0px 30px 20px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.clear	{
+	clear: left;
+}
+
+.profile-heading {
+	color: rgb(52, 18, 149);
+	line-height: 5px;
+}
+.profile-container {
+	padding-top:20px;
+	margin-bottom: 20px;
+	float: left;
+	width: 25%;
+}
+.profile-desc {
+	width: 90%;
+	border: 1px solid	#FFC300;
+}
+
+.profile-desc p{
+	width: 80%;
+  display: inline-block;
+  line-height: 0px;
+}
+.profile-desc img{
+	width: 200px;
+
+}
+.form{
+	padding: 30px 0px 30px 0px;
+	height: 400px;
+	text-align: center;
+}
+.form-item{
+	padding-bottom: 20px;
+}
+.form-item input{
+	width: 25%;
+	height: 25px;
+	color: #CBC8D6;
+}
+
+
+}
+.form-input{
+	color:#889eab;
+}
+.btn {
+	padding: 10px 60px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  color: white;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+.btn:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.footer{
+	height: 30px;
+	color: white;
+	background-color: #581845;
+	text-align: center;
+	display: block;
+	padding:30px 0 30px 0;
+}
