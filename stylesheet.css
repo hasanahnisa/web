@@ -12,7 +12,7 @@ li {
 }
 .header {
 	height: 60px;
-	background-color: #000066;
+	background-color: #483D8B;
 }
 .header-logo {
 	float: left;
@@ -54,6 +54,9 @@ li {
 	color: white;
 	text-align: center;
 }
+.top-text h1{
+	letter-spacing: 5px;
+}
 .top-text h2 {
 	width: 90%;
 }
@@ -82,15 +85,33 @@ span {
 	color: rgb(52, 18, 149);
 	line-height: 5px;
 }
+.profile-all{
+	
+	display:grid;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 25%);
+}
+.all-2 {
+	display:grid;
+    list-style-type:none;
+    margin:0 60px; 
+    padding:0 40px;
+    grid-template-columns: repeat(2, 25%);
+    grid-template-rows: repeat(2, 25%);
+}
 .profile-container {
 	padding-top:20px;
 	margin-bottom: 20px;
 	float: left;
-	width: 25%;
+	width: auto;
 }
 .profile-desc {
 	width: 90%;
-	border: 1px solid	#FFC300;
+	background-color: white;
+	border: 1px solid #FFC300;
 }
 
 .profile-desc p{
@@ -99,7 +120,7 @@ span {
   line-height: 0px;
 }
 .profile-desc img{
-	width: 200px;
+	width: 150px;
 
 }
 .form{
@@ -139,8 +160,8 @@ span {
 .footer{
 	height: 30px;
 	color: white;
-	background-color: #581845;
-	text-align: center;
+	background-color: #4682B4;
+	text-align: right;
 	display: block;
 	padding:30px 0 30px 0;
 }
